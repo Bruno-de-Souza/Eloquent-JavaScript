@@ -1,1 +1,0 @@
-This is my JavaScript exercises from the Eloquent JavaScript Book. Let's dive in.
