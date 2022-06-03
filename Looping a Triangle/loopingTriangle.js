@@ -1,3 +1,3 @@
-for (let line = "#"; line.length < 8; line += "#") {
-    console.log(line);
+for (let line = [' ', '#']; line.length < 16; line += ' ' + "#") {
+    console.log(line + '\n'); 
 }
