@@ -91,3 +91,27 @@ function future() {
 }
 // It does not matter the place of the function on the code, you can use it wherever you want to
 
+// Arrow Functions =>
+
+const powerI = (base, expoente) => {
+    let result = 1;
+    for (let count = 0; count < expoente; count++){
+        result *= base;
+    }
+    return result;
+}
+
+const powerA = (x) => {
+    return x;
+}
+
+// When there is just one paramanter, you can omit the parathenses in your function
+const powerB = x => {
+    return x;
+}
+
+// An arrown function with no paramenters
+const horn = () => {
+    console.log("Toot");
+}
+
